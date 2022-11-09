@@ -2,6 +2,8 @@ import telebot
 
 bot = telebot.TeleBot("5660357300:AAEagrDoMcNNF9d3-zS2zQcXG4fJU6Tmaas")
 
+print('gelo')
+
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
